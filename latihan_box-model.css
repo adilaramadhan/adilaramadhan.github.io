@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(53, 57, 57);
+}
+.container{
+    width: 780px;
+    background-color: white;
+    margin: auto;   
+}
+.heder h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-variant:small-caps;
+    text-align: center;
+}
+.heder h1 span{
+    color: blue;
+}
+.heder ul li{
+    display: inline-block;
+    margin: 20px 10px 5px;
+}
+.heder a{
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;
+}
+.heder a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 20px 0px 20px 0px; 
+    transition: 1s;
+}
+.img{
+    height: 300px;
+    background-image: url(istockphoto-813136942-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 780px; 
+    margin: auto;
+    border-top: 5px solid lightgreen;
+    border-bottom: 5px solid orange;
+}
+.conten{
+    padding: 20px;
+}
+.conten h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.conten .penulis{
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conten .penulis a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.conten p{
+    margin-bottom: 15px;
+    line-height: 15px;
+    text-align: justify;
+}
+.footer{
+    background-color: blue;
+    padding: 20px;
+}
+.footer .copyright{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
